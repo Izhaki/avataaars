@@ -1,0 +1,41 @@
+export { Avatar } from "./Avatar";
+export type {
+  AvatarProps,
+  AvatarConfig,
+  AvatarStyle,
+  TopType,
+  AccessoriesType,
+  HairColor,
+  HatColor,
+  FacialHairType,
+  FacialHairColor,
+  ClotheType,
+  ClotheColor,
+  GraphicType,
+  EyeType,
+  EyebrowType,
+  MouthType,
+  SkinColor,
+} from "./types";
+export {
+  TOP_TYPES,
+  ACCESSORIES_TYPES,
+  HAIR_COLORS,
+  HAT_COLORS,
+  FACIAL_HAIR_TYPES,
+  FACIAL_HAIR_COLORS,
+  CLOTHE_TYPES,
+  CLOTHE_COLORS,
+  GRAPHIC_TYPES,
+  EYE_TYPES,
+  EYEBROW_TYPES,
+  MOUTH_TYPES,
+  SKIN_COLORS,
+} from "./types";
+export {
+  skinColors,
+  hairColors,
+  hatColors,
+  clotheColors,
+  facialHairColors,
+} from "./colors";
