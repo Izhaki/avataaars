@@ -1,0 +1,13 @@
+{
+  "name": "avataaars-monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter avatar-generator dev",
+    "build": "pnpm --filter avataaars build && pnpm --filter avatar-generator build",
+    "build:lib": "pnpm --filter avataaars build",
+    "lint": "pnpm -r lint"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
